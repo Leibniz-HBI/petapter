@@ -3,7 +3,7 @@
 # The run_script will run experiments for all of these folders  
 dataset:
   data_path: datasets/adapter_scm
-  out_path: None # if no out_path is specified, the path where the config file is stored is the out path
+  out_path: False # if False, the results are saved in the data_path
   pattern: "Dies ist ein <mask> <mask> Waffenlieferungen an die Ukraine: "
   verbalizer:
     argumentagainst: "Argument gegen"
